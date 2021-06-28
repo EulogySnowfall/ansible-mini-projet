@@ -21,7 +21,7 @@ ansible-galaxy install -r roles/requirements.yml
 # Install in second nodes
 
 # For demo, vault_pass = admin 
-ansible-playbook app_deploy.yml
+ansible-playbook deploy_app.yml
 ```
 
 ## Remove roles
