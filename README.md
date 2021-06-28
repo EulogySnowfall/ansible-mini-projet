@@ -10,7 +10,7 @@ cd ansible-mini-projet
 ansible-galaxy install -r roles/requirements.yml
 # Test localhsot
 cd roles/tests
-ansible-playbook -i hosts.yml main.yml
+ansible-playbook -i hosts.yml --ask-become-pass main.yml
 cd ../..
 # Validate hosts IP in hosts.yml 
 # Install in second nodes

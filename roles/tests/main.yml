@@ -1,8 +1,13 @@
 ---
 - hosts: localhost
   remote_user: "{{ system_user }}"
+  become: true
+  ansible_password: admin
   vars:
     ansible_hostname: Test localhost
+    docker_install_compose: false
+    docker_users:
+      - admin
   roles:
     - { role: ansible-role-docker }
     - { role: ansible-mini-projet }
