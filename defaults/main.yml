@@ -1,0 +1,5 @@
+---
+# defaults file for Apache App
+system_user: admin
+ansible_hostname: node2
+app_project_dir: home/{{ system_user }}/app

@@ -1,0 +1,4 @@
+- hosts: servers
+  remote_user: "{{ system_user }}"
+  roles:
+    - { role: eulogy.apache_app }
