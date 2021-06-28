@@ -2,7 +2,8 @@
 - hosts: prod
   become: true
   vars:
-    system_user: admin
+    system_user: "{{ ansible_user }}"
+  vars_files:
+    - files/secrets/credentials.yml
   roles:
-    - { role: ansible-role-docker }
     - { role: ansible-mini-projet }
