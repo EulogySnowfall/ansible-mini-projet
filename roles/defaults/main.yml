@@ -3,3 +3,4 @@
 system_user: admin
 ansible_hostname: node2
 app_project_dir: home/{{ system_user }}/app
+source_port: 80

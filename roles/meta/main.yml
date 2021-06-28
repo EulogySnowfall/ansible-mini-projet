@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  role_name: eulogy.apache_app
+  role_name: ansible-mini-projet
   author: EulogySnowfall
   description: Apache application for CentOS.
   company: "Mini-projet"
