@@ -1,0 +1,7 @@
+---
+- hosts: prod
+  become: true
+  vars:
+    system_user: admin
+  roles:
+    - { role: eulogy.apache_app }
