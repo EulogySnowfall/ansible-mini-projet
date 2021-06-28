@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
   remote_user: "{{ system_user }}"
+  vars:
+    ansible_hostname: Test localhost
   roles:
     - { role: ansible-mini-projet }
