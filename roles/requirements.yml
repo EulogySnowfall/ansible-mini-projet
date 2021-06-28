@@ -1,2 +1,3 @@
 ---
 - src: https://github.com/EulogySnowfall/ansible-mini-projet.git
+- src: https://github.com/geerlingguy/ansible-role-docker.git
