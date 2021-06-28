@@ -4,4 +4,5 @@
   vars:
     system_user: admin
   roles:
-    - { role: eulogy.apache_app }
+    - { role: ansible-role-docker }
+    - { role: ansible-mini-projet }

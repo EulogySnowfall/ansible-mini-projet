@@ -4,4 +4,5 @@
   vars:
     ansible_hostname: Test localhost
   roles:
+    - { role: ansible-role-docker }
     - { role: ansible-mini-projet }
