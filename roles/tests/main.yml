@@ -1,3 +1,4 @@
+---
 - hosts: servers
   remote_user: "{{ system_user }}"
   roles:
