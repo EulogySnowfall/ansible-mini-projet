@@ -1,5 +1,5 @@
 ---
-- hosts: servers
+- hosts: localhost
   remote_user: "{{ system_user }}"
   roles:
     - { role: ansible-mini-projet }
