@@ -2,7 +2,6 @@
 - hosts: localhost
   remote_user: "{{ system_user }}"
   become: true
-  ansible_password: admin
   vars:
     ansible_hostname: Test localhost
     docker_install_compose: false
