@@ -18,6 +18,12 @@
 - name: Install docker python
   pip: name=docker-py
 
+- name: Check if project path exist
+  file:
+    path: "/{{ app_project_dir }}"
+    state: directory
+    recurse: yes
+
 - name: Copy website file template
   template:
     src: index.html.j2

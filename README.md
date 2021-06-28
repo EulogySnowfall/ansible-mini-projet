@@ -9,7 +9,7 @@ cd ansible-mini-projet
 # Copy roles
 ansible-galaxy install -r roles/requirements.yml
 # Test localhsot
-cd test
+cd roles/tests
 ansible-playbook -i hosts.yml main.yml
 cd ../..
 # Validate hosts IP in hosts.yml 
