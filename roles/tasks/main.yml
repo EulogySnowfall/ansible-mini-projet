@@ -28,7 +28,6 @@
   template:
     src: index.html.j2
     dest: /{{ app_project_dir }}/index.html
-    recurse: yes
 
 - name: Create Apache container
   docker_container:
