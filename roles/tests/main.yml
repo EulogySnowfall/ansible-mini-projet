@@ -6,7 +6,7 @@
     ansible_hostname: Test localhost
     docker_install_compose: false
     docker_users:
-      - admin
+      - "{{ system_user }}"
   roles:
     - { role: ansible-role-docker }
     - { role: ansible-mini-projet }
