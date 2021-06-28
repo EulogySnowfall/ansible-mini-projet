@@ -3,6 +3,8 @@
 ## Copy Role
 
 ```bash
+# Pass admin
+sudo su admin -
 # Take project
 git clone https://github.com/EulogySnowfall/ansible-mini-projet.git
 cd ansible-mini-projet

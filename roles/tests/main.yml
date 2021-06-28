@@ -8,5 +8,4 @@
     docker_users:
       - "{{ system_user }}"
   roles:
-    - { role: ansible-role-docker }
     - { role: ansible-mini-projet }

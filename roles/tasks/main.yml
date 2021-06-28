@@ -1,5 +1,6 @@
 ---
 - name: Install some package
+  become: true
   package: name='{{ item }}' state=present
   when: ansible_distribution == "CentOS"
   loop:

@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - ansible-role-docker
+  []
 
 galaxy_info:
   role_name: ansible-mini-projet
