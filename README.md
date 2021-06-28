@@ -16,3 +16,11 @@ cd ../..
 # Install in second nodes
 ansible-playbook -i hosts.yml main.yml
 ```
+
+## Remove roles
+
+```bash
+ansible-galaxy remove ansible-mini-projet
+cd ~/
+rm -rf ./ansible-mini-project
+```
